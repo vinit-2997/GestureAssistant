@@ -1,6 +1,48 @@
-# Real-time Sign Language Interpreter
+# GestureAssistant - Unleash the power of your hand and automate anything
 
-We are a team of volunteers from PyTorch Scholarship Challenge from Facebook hosted by Udacity creating awesome Deep Learning models.
+## Inspiration
+GestureAssistant  -  Unleash the power of your hand and automate anything 
+
+## What it does
+This is a simple prototype for GestureAssistant - a Desktop Personal Virtual Assistant which understands your gestures(so it understands you:) ) and turns them into powerful commands which will automate your Desktop without you lifting your finger..(but you will have to start the assistant yourself:))
+
+It can automate almost anything that a computer can do..so it can do everything..
+
+Scenario 1 : 
+Lets say, your mom doesn't know how to operate a computer [I am sure there are lots of moms], and you are tired teaching them the same thing again and again.
+
+I am in the same situation. And I applied my Engineering Brain to solve this problem.
+
+ Scenario 2 : 
+Suppose you are getting bored. You want to watch a movie on youtuve or listen to a song or send an email or play a game or chat with friends on facebook or peep into instagram or tweet on twitter or upload this code on Github:) or this or that and so on..............
+Infinite scenarios...
+But you dont want to go to your Start Menu --> Open Chrome --> enter the URL and wait for it to load..
+
+One Solution...Gestures
+
+Simply give a gesture command and get things done quickly...
+
+## How I built it
+
+Its built in python.
+I have used Pytorch to recognize the hand gestures and then associated them with commands...
+See github code for more details.
+
+## Challenges I ran into
+Started with deep learning for the first time...difficult to understand initially..but loved it after completion
+
+## Accomplishments that I'm proud of
+Built the app in 4 days ( and nights) !!!
+
+## What I learned
+Lot of things : 
+1)How to use Pytorch with python
+2)what is deep learning
+3) How to automate things on Windows
+
+## What's next for GestureAssistant - Your hand based Virtual Assistant
+I would learn image processing using torchvision in depth to more accuretely analyze the gestures and add support for more gestures.
+
 
 ### Dataset
 [Sign Language Dataset](https://www.kaggle.com/kumawatmanish/deep-learning-sign-language-dataset/data)
@@ -18,10 +60,13 @@ pip install -r requirements.txt
 ```
 
 ### How to Detect Gesture
-Run the following command to install all required python packages
-```console
-python main.py
-```
+-Clone the github repo
+-Install necessary packages
+-Run main.py
+-Wait for camera stream
+-Place hand in 9 boxes to configure hand
+-show gestures from 1,2,3,4,5 and observe the output
+
 
 ##### Instructions
 - Place your hand on the screen around the green boxes as shown on the figure below
@@ -31,45 +76,3 @@ python main.py
 
 ![Hand](https://res.cloudinary.com/practicaldev/image/fetch/s--iIEtBPzW--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/aaijxoqwmrkyx8epxq4t.png "Hand Histogram")
 
-### How to Add new image data
-See the sign language number gesture in https://github.com/ardamavi/Sign-Language-Digits-Dataset
-
-Run the following command to install all required python packages
-```console
-python collect_data.py
-```
-
-##### Instructions
-- Press 'z' on your keyboard to start detecting hand
-- Press 0-9 on your keyboard to change active label
-- Press 'c' on your keyboard to capture a single data
-- Press 's' on you keyboard to save all the captured data into file, the file will be located in the current application as X_{datetime}.npy and Y_{datetime}.npy
-- Press 'd' on your keyboard to delete last recorded data
-- Press ESC button to exit the application
-
-Watch the example of adding new image data on https://youtu.be/lEJL5Xflwjo
-
-### References
-[1] [Kaggle Example Script](https://www.kaggle.com/kumawatmanish/deep-learning-sign-language-dataset/code)
-
-[2] [Finger Detection](https://github.com/amarlearning/Finger-Detection-and-Tracking)
-
-[3] [Hand Detection](https://github.com/sashagaz/Hand_Detection)
-
-### Notes
-We also developed a sign language interpretation android application. Please check our repository on https://github.com/forfireonly/SignLanguage
-
-### More about our project
-- [Pitch Deck](https://goo.gl/Wr9qCF)
-
-- [Landing Page](https://mariannajan.github.io/funtorchSignLanguage/)
-
-- [Introduction Video](https://goo.gl/Rz96JJ)
-
-- [Demo Desktop Application](https://youtu.be/AvHXbdcuj8M)
-
-- [MacOS Application](https://goo.gl/XaJgSu)
-
-- [Windows Application](http://bit.ly/funtorch_win64)
-
-- [Mobile Application](https://goo.gl/9oHJhG)
