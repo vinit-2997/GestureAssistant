@@ -1,5 +1,6 @@
 ## Inspiration
 GestureAssistant  -  Unleash the power of your hand and automate anything 
+https://youtu.be/9Y3CwhA1CqM
 
 ## What it does
 This is a simple prototype for GestureAssistant - a Desktop Personal Virtual Assistant which understands your gestures(so it understands you:) ) and turns them into powerful commands which will automate your Desktop without you pressing a key..(but you will have to start the assistant yourself:))
